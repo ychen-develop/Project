@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: AMI 8618779588218, Monster, LIC=W96CK-ZH9R2-NT33G-VYFNB-YTS5T-MI332
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\MDK514\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\86187\Desktop\Project\STM32物联网智能家居\P6连接MQTT服务器\stm32f103.uvprojx
+Project File Date:  01/15/2026
+
+<h2>Output:</h2>
+Build target 'STM32F103'
+compiling main.c...
+user\main.c(99): warning:  #177-D: variable "timeCount" was declared but never referenced
+        unsigned short timeCount = 0;   //鍙戦�侀棿闅斿彉閲?                   ^
+user\main.c(101): warning:  #177-D: variable "dataPtr" was declared but never referenced
+        unsigned char *dataPtr = NULL;
+user\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=12796 RO-data=784 RW-data=52 ZI-data=2148  
+FromELF: creating hex file...
+".\output\stm32f103.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\86187\Desktop\Project\STM32物联网智能家居\P6连接MQTT服务器\RTE
+  D:\MDK514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
