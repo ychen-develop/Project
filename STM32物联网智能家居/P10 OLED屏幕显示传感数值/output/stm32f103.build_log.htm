@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: AMI 8618779588218, Monster, LIC=W96CK-ZH9R2-NT33G-VYFNB-YTS5T-MI332
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\MDK514\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\86187\Desktop\Project\STM32物联网智能家居\P10OLED屏幕显示传感数值\stm32f103.uvprojx
+Project File Date:  01/25/2026
+
+<h2>Output:</h2>
+Build target 'STM32F103'
+compiling main.c...
+.\OLED\oled.h(65): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+.\OLED\oled.h(66): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+.\OLED\oled.h(67): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+.\OLED\oled.h(72): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();
+user\main.c(126): warning:  #223-D: function "sprintf" declared implicitly
+        sprintf(buf, "%2d", temp);
+user\main.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        OLED_ShowString(54,0,buf,16);//娓╁害鏁板�?                          ^
+user\main.c(130): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        OLED_ShowString(54,3,buf,16);//婀垮害鏁板�?                          ^
+user\main.c(175): warning:  #1-D: last line of file ends without a newline
+  }
+user\main.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=38986 RO-data=3490 RW-data=708 ZI-data=3236  
+FromELF: creating hex file...
+".\output\stm32f103.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\86187\Desktop\Project\STM32物联网智能家居\P10OLED屏幕显示传感数值\RTE
+  D:\MDK514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
